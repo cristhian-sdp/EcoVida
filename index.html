@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos y configuración de la página -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <meta name="rating" content="General" />
+    <!-- Título de la página -->
+    <title>EcoVida - Calcula tu Huella de Carbono</title>
+    <!-- Enlaces a hojas de estilo CSS -->
+    <link rel="stylesheet" href="css/styles.min.css" />
+    <!-- Metadatos para SEO -->
+    <meta name="title" content="EcoVida - Calcula tu Huella de Carbono" />
+    <meta
+      name="description"
+      content="Calcula tu huella de carbono con EcoVida y descubre cómo reducir tu impacto ambiental. Aprende sobre sostenibilidad, energía renovable, reciclaje y hábitos ecológicos para proteger el medio ambiente y vivir de manera más responsable."
+    />
+    <meta
+      name="keywords"
+      content="huella de carbono, sostenibilidad, medio ambiente, EcoVida, calculadora de huella de carbono, calculadora, cambio climático, ecología, vida sostenible, reducción de emisiones, impacto ambiental, cuidado del planeta, energía renovable, reciclaje, consumo responsable, ahorro energético, transporte sostenible, dieta ecológica, gestión de residuos, eficiencia energética, calentamiento global, biodiversidad, economía circular, reforestación, energías limpias"
+    />
+    <!-- Autor del contenido de la página -->
+    <meta name="author" content="Cristhian Steffano Díaz Piminchumo" />
+    <meta name="copyright" content="© 2025 EcoVida" />
+    <!-- Enlace canónico -->
+    <link rel="canonical" href="https://" />
+    <!-- Metadatos para Open Graph (para compartir en redes sociales) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://" />
+    <meta
+      property="og:title"
+      content="EcoVida - Calcula tu Huella de Carbono"
+    />
+    <meta
+      property="og:description"
+      content="Calcula tu huella de carbono con EcoVida y descubre cómo reducir tu impacto ambiental. Aprende sobre sostenibilidad, energía renovable, reciclaje y hábitos ecológicos para proteger el medio ambiente y vivir de manera más responsable."
+    />
+    <meta property="og:image" content="img/misc/arbol.webp" />
+    <!-- Permite indexar la página y seguir los enlaces -->
+    <meta name="robots" content="index, follow" />
+    <!-- Enlace al sitemap -->
+    <link
+      rel="sitemap"
+      type="application/xml"
+      title="Sitemap"
+      href="/sitemap.xml"
+    />
+    <!-- Favicon de la página -->
+    <link
+      rel="icon"
+      href="img/favicon/logo.webp"
+      type="image/webp"
+      sizes="any"
+    />
+    <!-- Enlace a fuentes de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap&subset=latin"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Barra de navegación -->
+      <nav aria-label="Barra de navegación principal">
+        <ul>
+          <li>
+            <a href="#" aria-current="page">Inicio</a>
+          </li>
+          <li>
+            <a href="#calculadora">Calculadora</a>
+          </li>
+          <li>
+            <a href="#info">Info</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article class="hero">
+        <!-- Contenido principal de la página -->
+        <video
+          src="video/fondo-inicio.webm"
+          class="hero-background"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+          poster="img/misc/placeholder.webp"
+          priority
+          aria-label="Video de fondo que muestra imágenes relacionadas con la sostenibilidad y el medio ambiente"
+        >
+          Tu navegador no soporta la reproducción de videos. Por favor,
+          actualiza tu navegador o utiliza uno compatible.
+        </video>
+        <!-- Título y descripción de la página -->
+        <h1>
+          Ec<img
+            src="img/favicon/logo.webp"
+            alt="Logo de la web EcoVida"
+            class="favicon"
+          />Vida
+        </h1>
+        <p>Calcula tu Huella de Carbono</p>
+      </article>
+      <!-- Artículos  de información sobre la huella de carbono -->
+      <article class="article-details">
+        <section class="section-item">
+          <h3>¿Qué es la huella de carbono?</h3>
+          <p>
+            La huella de carbono representa la cantidad total de gases de efecto
+            invernadero generados por nuestras actividades cotidianas. Esto
+            abarca tanto las emisiones directas, como el uso de transporte, como
+            las indirectas, derivadas del consumo de bienes y servicios
+            manufacturados.
+          </p>
+        </section>
+        <section class="section-img">
+          <img
+            src="img/misc/huella-carbono.webp"
+            alt="Ilustración representando la huella de carbono"
+            width="360"
+            height="250"
+            loading="lazy"
+            decoding="async"
+            title="Ilustración representando la huella de carbono"
+          />
+        </section>
+      </article>
+      <article class="article-details">
+        <section class="section-img">
+          <img
+            src="img/misc/calculo-factores.webp"
+            alt="imagen de referencia a calcular la huella de carbono"
+            width="360"
+            height="250"
+            loading="lazy"
+            decoding="async"
+            title="Imagen de referencia a calcular la huella de carbono"
+          />
+        </section>
+        <section class="section-item">
+          <h3>¿Cómo se calcula?</h3>
+          <p>La calculamos considerando varios factores de tu vida diaria:</p>
+          <ul>
+            <li>Consumo de energía en el hogar</li>
+            <li>Medios de transporte utilizados</li>
+            <li>Hábitos de consumo y alimentación</li>
+            <li>Gestión de residuos</li>
+          </ul>
+        </section>
+      </article>
+      <!-- Sección de Titulo de Calculadora -->
+      <article id="calculadora" class="calculator-title">
+        <h2>
+          <img
+            src="img/icons/calculator.webp"
+            alt="Ícono de calculadora"
+            width="40"
+            height="40"
+          />
+          Calculadora
+        </h2>
+        <br />
+        <h3>
+          Calcula tu huella de carbono y descubre cómo reducir tu
+          <span>impacto ambiental con consejos personalizados.</span>
+        </h3>
+      </article>
+      <!-- Sección de Calculadora -->
+      <article class="article-calculator">
+        <section class="calculator-left">
+          <h3>Calcula tu Huella de Carbono</h3>
+          <p>
+            Completa este formulario para conocer tu impacto ambiental y recibir
+            recomendaciones personalizadas
+          </p>
+          <nav class="calculator-nav">
+            <button
+              type="button"
+              class="nav-button active"
+              data-section="transporte"
+              rel="noopener noreferrer nofollow"
+              title="Ir a la sección de Transporte"
+              aria-label="Ir a la sección de Transporte"
+            >
+              Transporte
+            </button>
+            <button
+              type="button"
+              class="nav-button"
+              data-section="hogar"
+              rel="noopener noreferrer nofollow"
+              title="Ir a la sección de Hogar"
+              aria-label="Ir a la sección de Hogar"
+            >
+              Hogar
+            </button>
+            <button
+              type="button"
+              class="nav-button"
+              data-section="estilo-vida"
+              rel="noopener noreferrer nofollow"
+              title="Ir a la sección de Estilo de Vida"
+              aria-label="Ir a la sección de Estilo de Vida"
+            >
+              Estilo Vida
+            </button>
+          </nav>
+          <div class="calculator-form" id="transporte">
+            <label for="tipo-vehículo">Tipo de Vehículo Principal:</label>
+            <div class="select-wrapper">
+              <select id="tipo-vehículo">
+                <option>Automóvil (Gasolina/Diesel)</option>
+                <option>Automóvil Híbrido</option>
+                <option>Automóvil Eléctrico</option>
+                <option>Motocicleta</option>
+                <option>Transporte Público</option>
+                <option>Bicicleta/A pie</option>
+              </select>
+            </div>
+            <label for="distancia-diaria"
+              >Distancia promedio diaria (km):</label
+            >
+            <input
+              type="range"
+              id="distancia-diaria"
+              min="0"
+              max="100"
+              value="0"
+            />
+            <span id="valor-distancia">0</span>
+            <label for="días-semana">Días por semana:</label>
+            <input type="range" id="días-semana" min="0" max="7" value="0" />
+            <span id="valor-días">0</span>
+          </div>
+          <div class="calculator-form" id="hogar" style="display: none">
+            <label for="consumo-electricidad"
+              >Consumo de electricidad mensual (kWh):</label
+            >
+            <input
+              type="range"
+              id="consumo-electricidad"
+              min="0"
+              max="500"
+              value="0"
+            />
+            <span id="valor-electricidad">0</span>
+
+            <label for="consumo-gas">Consumo de gas mensual (m³):</label>
+            <input type="range" id="consumo-gas" min="0" max="200" value="0" />
+            <span id="valor-gas">0</span>
+
+            <label for="energía-renovable"
+              >Porcentaje de energía renovable (%):</label
+            >
+            <input
+              type="range"
+              id="energía-renovable"
+              min="0"
+              max="100"
+              value="0"
+            />
+            <span id="valor-renovable">0%</span>
+          </div>
+          <div class="calculator-form" id="estilo-vida" style="display: none">
+            <label for="consumo-carne">Consumo de carne (% en tu dieta):</label>
+            <input
+              type="range"
+              id="consumo-carne"
+              min="0"
+              max="100"
+              value="0"
+            />
+            <span id="valor-carne">0%</span>
+
+            <label for="alimentos-locales"
+              >Alimentos locales/orgánicos (% en tu dieta):</label
+            >
+            <input
+              type="range"
+              id="alimentos-locales"
+              min="0"
+              max="100"
+              value="0"
+            />
+            <span id="valor-locales">0%</span>
+
+            <label for="reciclaje">Reciclaje (% de tus residuos):</label>
+            <input type="range" id="reciclaje" min="0" max="100" value="0" />
+            <span id="valor-reciclaje">0%</span>
+          </div>
+          <button
+            type="button"
+            class="calculate-button"
+            rel="noopener noreferrer nofollow"
+            title="Calcular tu huella de carbono"
+            aria-label="Calcular tu huella de carbono"
+          >
+            Calcula tu Huella
+          </button>
+        </section>
+        <!-- Sección de Consejos -->
+        <section class="calculator-right">
+          <h3>Tu Huella de Carbono</h3>
+          <p>
+            Basado en tus resultados, estas acciones pueden ayudarte a reducir
+            tu huella
+          </p>
+          <ul class="advice-list">
+            <li>Esperando tu cálculo...</li>
+            <li>Esperando tu cálculo...</li>
+            <li>Esperando tu cálculo...</li>
+            <li>Esperando tu cálculo...</li>
+            <li>Esperando tu cálculo...</li>
+            <li>Esperando tu cálculo...</li>
+          </ul>
+          <p class="advice-impact">
+            Impacto: <span id="nivel-impacto">...</span>
+          </p>
+        </section>
+      </article>
+      <h2 id="info">
+        <img
+          src="img/icons/plant.webp"
+          alt="Ícono de planta"
+          width="40"
+          height="40"
+          loading="lazy"
+          decoding="async"
+        />Datos Interesantes
+      </h2>
+      <!-- Sección de Datos Interesantes -->
+      <article class="article-info">
+        <section class="section-item">
+          <p>
+            Si cada persona en el mundo redujera su consumo de carne a la mitad,
+            podríamos reducir las emisiones globales de gases de efecto
+            invernadero en aproximadamente un 5-10%.
+          </p>
+          <p>Fuente: ONU para la Alimentación y la Agricultura (FAO)</p>
+          <button
+            type="button"
+            onclick="window.location.href='https://www.fao.org/newsroom/detail/new-fao-report-maps-pathways-towards-lower-livestock-emissions/es';"
+            rel="noopener noreferrer nofollow"
+            title="Ver más sobre la reducción de emisiones de gases de efecto invernadero"
+            aria-label="Ver más sobre la reducción de emisiones de gases de efecto invernadero"
+          >
+            Ver más
+          </button>
+        </section>
+        <section class="section-img">
+          <img
+            src="img/misc/emision-gas.webp"
+            alt="Imagen de referencia a la emisión de gases"
+            width="360"
+            height="295"
+            loading="lazy"
+            decoding="async"
+            title="Imagen de referencia a la emisión de gases"
+          />
+        </section>
+      </article>
+      <article class="article-info">
+        <section class="section-item">
+          <p>
+            El cambio a bombillas LED puede reducir el consumo de energía para
+            iluminación en un 80-90% en comparación con las bombillas
+            incandescentes tradicionales.
+          </p>
+          <p>Fuente: Agencia Internacional de Energía (AIE)</p>
+          <button
+            type="button"
+            onclick="window.location.href='https://www.fenitel.es/revista-el-instalador/llamamiento-mundial-para-alcanzar-la-eficiencia-energetica-con-la-iluminacion-led-conectada/';"
+            rel="noopener noreferrer nofollow"
+            title="Ver más sobre la eficiencia energética con iluminación LED"
+            aria-label="Ver más sobre la eficiencia energética con iluminación LED"
+          >
+            Ver más
+          </button>
+        </section>
+        <section class="section-img">
+          <img
+            src="img/misc/luz-led.webp"
+            alt="Imagen de referencia a una bombilla LED"
+            width="360"
+            height="295"
+            loading="lazy"
+            decoding="async"
+            title="Imagen de referencia a una bombilla LED"
+          />
+        </section>
+      </article>
+      <article class="article-info">
+        <section class="section-item">
+          <p>
+            Un solo árbol puede absorber hasta 30 kg de dióxido de carbono al
+            año y producir oxígeno suficiente para que respiren 2 personas.
+          </p>
+          <p>Fuente: El Mundo Ecosostenible</p>
+          <button
+            type="button"
+            onclick="window.location.href='https://antropocene.it/es/2023/05/16/cuanto-dioxido-de-carbono-absorbe-cada-arbol/';"
+            rel="noopener noreferrer nofollow"
+            title="Ver más sobre la absorción de CO2 por los árboles"
+            aria-label="Ver más sobre la absorción de CO2 por los árboles"
+          >
+            Ver más
+          </button>
+        </section>
+        <section class="section-img">
+          <img
+            src="img/misc/arbol.webp"
+            alt="Imagen de referencia a un árbol"
+            width="360"
+            height="275"
+            loading="lazy"
+            decoding="async"
+            title="Imagen de referencia a un árbol"
+          />
+        </section>
+      </article>
+      <article class="article-info">
+        <section class="section-item">
+          <p>
+            Reciclar una tonelada de papel evita la tala de hasta 20 árboles,
+            además de ahorrar 7.000 kWh de energía y 5.000 litros de agua.
+          </p>
+          <p>Fuente: MAPFRE</p>
+          <button
+            type="button"
+            onclick="window.location.href='https://www.mapfre.com/actualidad/sostenibilidad/reciclar-papel-salva-arboles/';"
+            rel="noopener noreferrer nofollow"
+            title="Ver más sobre el reciclaje de papel"
+            aria-label="Ver más sobre el reciclaje de papel"
+          >
+            Ver más
+          </button>
+        </section>
+        <section class="section-img">
+          <img
+            src="img/misc/reciclaje.webp"
+            alt="Imagen de referencia al reciclaje"
+            width="360"
+            height="275"
+            loading="lazy"
+            decoding="async"
+            title="Imagen de referencia al reciclaje"
+          />
+        </section>
+      </article>
+    </main>
+    <!-- Sección de Footer -->
+    <footer>
+      <img
+        src="img/favicon/logo.webp"
+        alt="Logo EcoVida"
+        class="footer-logo"
+        width="180"
+        height="180"
+        loading="lazy"
+        decoding="async"
+        title="Logo de la web EcoVida"
+      />
+      <h1>EcoVida</h1>
+      <p>Juntos por un futuro más sostenible y un planeta más saludable.</p>
+      <div class="footer-bottom">
+        <!-- Derechos reservados -->
+        <p class="footer-rights">&copy; 2025 EcoVida</p>
+        <!-- Enlace al repositorio de Github -->
+        <a
+          href="https://github.com/cristhian-sdp/EcoVida"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          title="Abrir el repositorio de EcoVida"
+          aria-label="Abrir el repositorio de GitHub de EcoVida"
+        >
+          <img
+            src="img/icons/github.webp"
+            alt="Ícono de Github"
+            width="40"
+            height="40"
+            loading="lazy"
+            decoding="async"
+          />
+        </a>
+      </div>
+    </footer>
+    <script src="js/script.min.js"></script>
+  </body>
+</html>
