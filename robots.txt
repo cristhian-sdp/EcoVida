@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Enlace al sitemap
-Sitemap: https://.../sitemap.xml
+Sitemap: https://ecovida.pages.dev/sitemap.xml
