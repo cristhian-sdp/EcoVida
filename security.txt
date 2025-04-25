@@ -4,4 +4,4 @@
 Contact: mailto:steffanod948@gmail.com
 
 Preferred-Languages: es, en
-Encryption: https://()/pgp-key.txt
+Encryption: https://ecovida.pages.dev/pgp-key.txt
