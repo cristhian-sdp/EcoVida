@@ -16,10 +16,8 @@ El proyecto está organizado de la siguiente manera:
   - **`css/`**: 
     - `output.css`: Archivo CSS compilado y optimizado
   - **`fonts/`**: Fuentes utilizadas  
-  - **`img/`**: Carpeta que contiene imágenes y recursos gráficos
-    - `favicon/`: Iconos de la página
+  - **`img/`**: Carpeta que contiene imágenes misceláneas, favicon.ico y sprites.svg
     - `misc/`: Imágenes misceláneas
-    - `svg/`: Archivos spites y SVG
   - **`js/`**: 
     - `script.min.js`: Versión minificada del script principal
   - **`index.html`**: Archivo principal que contiene la estructura HTML de la aplicación
