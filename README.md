@@ -2,6 +2,8 @@
 
 Bienvenido al repositorio de **EcoVida**, un sitio web para ayudar a los usuarios a calcular su huella de carbono y proporcionar recomendaciones personalizadas para reducir su impacto ambiental.
 
+![Vista previa de EcoVida](public/img/misc/readme.webp)
+
 ## Descripción
 
 EcoVida es una herramienta interactiva que permite a los usuarios calcular su huella de carbono de manera sencilla y rápida. Proporciona recomendaciones personalizadas basadas en los hábitos de transporte, consumo energético y estilo de vida, ayudando a reducir el impacto ambiental y fomentar prácticas sostenibles. Este proyecto busca concienciar sobre la importancia de adoptar medidas ecológicas para proteger el medio ambiente y combatir el cambio climático.
