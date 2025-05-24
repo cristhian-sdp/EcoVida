@@ -1,6 +1,0 @@
-# Permitir a todos los motores de búsqueda indexar el sitio
-User-agent: *
-Allow: /
-
-# Enlace al sitemap
-Sitemap: https://ecovida.pages.dev/sitemap.xml
