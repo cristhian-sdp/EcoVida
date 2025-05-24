@@ -52,6 +52,6 @@ Para cualquier consulta o sugerencia, por favor contacta a través de [steffanod
 
 ## Seguridad
 
-Si encuentras alguna vulnerabilidad de seguridad, consulta nuestro [archivo de seguridad](.public/security.txt) para conocer el proceso adecuado para reportarla.
+Si encuentras alguna vulnerabilidad de seguridad, consulta nuestro [archivo de seguridad](public/security.txt) para conocer el proceso adecuado para reportarla.
 
 © 2025 EcoVida. Todos los derechos reservados.
