@@ -1,0 +1,103 @@
+@import "tailwindcss";
+@plugin "@midudev/tailwind-animations";
+
+/* ===== FUENTES ===== */
+@font-face {
+  font-family: "Questrial";
+  src: url("../fonts/Questrial-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+}
+/* ===== VARIABLES ===== */
+@theme {
+  /* Fuente */
+  --font-sans: "Questrial", system-ui, sans-serif;
+  /* Paleta de Colores */
+  --color-verde-fuerte: #0bb407;
+  --color-verde: #13ae74;
+  --color-verde-claro: #89c197;
+  --color-gris-claro: #d9d9d9;
+  --color-negro: #232227;
+  --color-blanco-puro: #ffffff;
+}
+/* ===== ESTILOS BASE ===== */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scrollbar-width: auto;
+    scrollbar-color: var(--color-verde-fuerte) var(--color-blanco-puro);
+  }
+  :focus {
+    outline-color: var(--color-verde-fuerte);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+/* ===== ANIMACIONES ===== */
+@layer utilities {
+  @keyframes show {
+    from {
+      opacity: 0;
+      scale: 20%;
+    }
+    to {
+      opacity: 1;
+      scale: 100%;
+    }
+  }
+}
+/* ===== COMPONENTES DE REUTILIZACIÓN ===== */
+.nav-a {
+  @apply text-blanco-puro hover:text-negro transition;
+}
+.nav-button {
+  @apply bg-transparent text-blanco-puro text-xs md:text-base border-transparent rounded-4xl py-2.5 px-5 md:py-3.5 md:px-9 cursor-pointer hover:text-[#d9d9d9] transition;
+}
+.nav-button.active {
+  @apply bg-verde-claro text-negro;
+}
+.article-details,
+.article-info {
+  @apply h-full flex items-center justify-center flex-wrap gap-6 p-3.5;
+}
+.section-items {
+  @apply max-w-11/12 h-full py-12 px-6 text-blanco-puro bg-negro rounded-3xl shadow 2xl:py-16 2xl:px-9 lg:max-w-1/3 md:max-w-3/5 text-xs md:text-base;
+}
+.calculator-left,
+.calculator-right {
+  @apply max-w-11/12 xl:max-w-2/5 bg-negro text-blanco-puro rounded-3xl p-5 md:p-7 shadow;
+}
+.input-range {
+  @apply appearance-none w-10/12 h-1.5 bg-blanco-puro rounded-4xl outline-none p-0 mb-5;
+}
+.input-range::-webkit-slider-thumb {
+  @apply appearance-none bg-verde size-4 md:size-5 rounded-full cursor-pointer;
+}
+/* ===== ESTILOS ORIGINALES ===== */
+.calculator-form[style*="display: none"] select::after {
+  content: none;
+}
+.advice-list li::before {
+  content: "💡";
+  position: absolute;
+  left: 0;
+}
+.section-items,
+section img,
+#calculadora,
+.calculator-left,
+.calculator-right,
+#info {
+  view-timeline-name: --reveal;
+  animation-name: show;
+  animation-fill-mode: both;
+  animation-timeline: --reveal;
+  animation-range: entry 20% cover 40%;
+}

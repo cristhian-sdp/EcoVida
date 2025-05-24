@@ -1,0 +1,21 @@
+# Dependencias
+node_modules
+
+# Archivos de entorno y configuración local
+.env
+.env.*
+!.env.example
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de editores/IDEs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.sublime-*
+.project
+*.swp
+*.swo
