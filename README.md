@@ -10,21 +10,33 @@ EcoVida es una herramienta interactiva que permite a los usuarios calcular su hu
 
 El proyecto está organizado de la siguiente manera:
 
-- **`index.html`**: Archivo principal que contiene la estructura HTML de la aplicación.
-- **`css/`**: Carpeta que contiene los estilos CSS.
-  - `styles.css`: Archivo con los estilos principales.
-  - `styles.min.css`: Versión minificada de los estilos.
-- **`js/`**: Carpeta que contiene los scripts JavaScript.
-  - `script.js`: Archivo con la lógica principal de la calculadora.
-  - `script.min.js`: Versión minificada del script.
-- **`img/`**: Carpeta que contiene imágenes y recursos gráficos.
-- **`video/`**: Carpeta que contiene el video de fondo utilizado en la página principal.
-- **`robots.txt`**: Archivo para configurar el comportamiento de los motores de búsqueda.
-- **`sitemap.xml`**: Archivo para facilitar la indexación del sitio por los motores de búsqueda.
-- **`security.txt`**: Archivo para reportar problemas de seguridad.
-- **`pgp-key.txt`**: Archivo con la clave PGP pública para comunicaciones seguras.
-- **`LICENSE`**: Archivo que especifica la licencia del proyecto.
-- **`CONTRIBUTING.md`**: Guía para contribuir al proyecto.
+- **`public/`**: Carpeta con los archivos públicos listos para producción
+  - **`css/`**: 
+    - `output.css`: Archivo CSS compilado y optimizado
+  - **`fonts/`**: Fuentes utilizadas  
+  - **`img/`**: Carpeta que contiene imágenes y recursos gráficos
+    - `favicon/`: Iconos de la página
+    - `misc/`: Imágenes misceláneas
+    - `svg/`: Archivos spites y SVG
+  - **`js/`**: 
+    - `script.min.js`: Versión minificada del script principal
+  - **`index.html`**: Archivo principal que contiene la estructura HTML de la aplicación
+  - **`robots.txt`**: Archivo para configurar el comportamiento de los motores de búsqueda
+  - **`security.txt`**: Archivo para reportar problemas de seguridad
+  - **`sitemap.xml`**: Archivo para facilitar la indexación del sitio por los motores de búsqueda
+  - **`video.webm`**: Video de fondo utilizado en la página principal
+
+- **`src/`**: Carpeta con archivos fuente para desarrollo
+  - **`css/`**:
+    - `input.css`: Archivo con los estilos base usando Tailwind
+  - **`js/`**: 
+    - `script.js`: Archivo con la lógica principal de la calculadora
+
+- **`.gitignore`**: Configuración de archivos ignorados por Git
+- **`CONTRIBUTING.md`**: Guía para contribuir al proyecto
+- **`LICENSE`**: Archivo que especifica la licencia MIT del proyecto
+- **`package.json`**: Configuración de dependencias y scripts de npm
+- **`README.md`**: Documentación principal del proyecto
 
 ## Instalación
 
