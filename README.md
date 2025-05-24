@@ -10,7 +10,7 @@ EcoVida es una herramienta interactiva que permite a los usuarios calcular su hu
 
 El proyecto está organizado de la siguiente manera:
 
-- **`public/`**: Carpeta con los archivos públicos listos para producción
+- **`docs/`**: Carpeta con los archivos públicos listos para producción
   - **`css/`**: 
     - `output.css`: Archivo CSS compilado y optimizado
   - **`fonts/`**: Fuentes utilizadas  
